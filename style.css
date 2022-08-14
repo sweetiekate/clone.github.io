@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    padding: 20px 30px;
+}
+.logn{
+    width: 100px;
+    margin: 10px;
+}
+.SignIn{
+    padding: 5px 30px;
+    margin-left: 80%;
+    border-radius: 2px;
+    color: white;
+}
+.front{
+    background-image: url(netflix.jpg);
+    width: 99%;
+}
+.dark{
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+}
+.main{
+    color: white;
+    padding: 150px 5px;
+    text-align: center;
+    width: 99%;
+}
+input{
+    margin: 20px 0px;
+    width: 38%;
+    height: 50px;
+}
+:placeholder-shown{
+    padding-left: 10px;
+}
+button{
+    background-color: rgb(255, 28, 28);
+    color: white;
+    padding: 10px 20px;
+    border: transparent;
+    font-size: large;
+    height: 54px;
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+h2{
+    font-size: 30px;
+    color: white;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+body{
+    background-color: rgb(53, 52, 52);
+    text-decoration: none;
+    color: white;
+    font-family: 'Config Rounded', sans-serif;
+    width: 100%;
+}
+body a{
+    color: grey;
+    text-decoration: none;
+    
+}
+.tv{
+    display: flex;
+    text-align: left;
+    background-color: black;
+    margin: 10px 0px;
+    width: 100%;
+}
+.tv p{
+    text-align: left;
+}
+#h1{
+    padding: 10% 0% 10% 10%;
+}
+#h2{
+    width: 35%;
+    height: 35%;
+    padding: 4% 4% 4% 5%;
+}
+.boxL{
+    height: auto;
+    width: 1000px;
+}
+.boxR{
+    height: auto;
+    width: 1000px;
+}
+.questions{
+    background-color: black;
+    padding: 10% 10% 3% 10%;
+}
+.label{
+    justify-content: center;
+    text-align: center;
+}
+.questions h1, p{
+    text-align: center;
+    margin: 10px;
+    
+}
+.questions ul p{
+    background-color: rgb(46, 43, 43);
+    padding: 2% 5%;
+    margin: 10px 10%;
+    width: 70%;
+    text-align: left;
+}
+footer{
+    color: grey;
+    display: block;
+    text-align: left;
+    background-color: black;
+    padding: 5px 5px;
+    margin-top: 10px;
+}
+footer a{
+    color: grey;
+    text-decoration: none;
+    padding: 5px 50px;
+    margin: 5px 50px;
+    display: block;
+}
+footer p{
+    color: grey;
+    padding: 0px 100px 50px;
+}
+.li{
+    display: inline-block;
+    padding: 50px 5px;
+    width: 30%;
+}
